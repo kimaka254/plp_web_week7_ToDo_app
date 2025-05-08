@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+  <div class="container">
+    <h1>📝 My Tasks</h1>
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="What do you need to do?" required />
+      <select id="category" class="category">
+        <option value="Personal" class="Personal">Personal</option>
+        <option value="Work" class="Work">Work</option>
+      </select>
+      <select id="priority" class="priority">
+        <option value="Low">Low</option>
+        <option value="Medium" selected>Medium</option>
+        <option value="High">High</option>
+      </select>
+      <button type="submit">
+        <i class="fas fa-plus-circle"></i> Add Task
+      </button>
+    </form>
+
+    <div class="filters">
+      <div class="filters">
+        <button onclick="filterTasks('all')"><i class="fas fa-list"></i> All</button>
+        <button onclick="filterTasks('done')"><i class="fas fa-check"></i> Completed</button>
+        <button onclick="filterTasks('pending')"><i class="fas fa-clock"></i> Pending</button>
+      </div>
+      
+    </div>
+
+    <ul id="task-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
