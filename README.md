@@ -2,7 +2,7 @@
 
 A beautifully designed, responsive and interactive to-do list application built with HTML, CSS, and JavaScript. This app allows users to manage their tasks with categories, priorities, and status updates — all with smooth animations and modern UI effects.
 
-🔗 [Live Preview](https://dev-kimaka.github.io/PowerlearnProject/web%20Development/week%207/)
+🔗 [Live Preview](https://kimaka254.github.io/plp_web_week7_ToDo_app/)
 
 ## ✨ Features
 
@@ -40,13 +40,13 @@ week 7/
 - Internet connection for accessing CDN resources
 
 ## How to Access the Website
-1. Visit the [Live Preview](https://dev-kimaka.github.io/PowerlearnProject/web%20Development/week%207/) directly
+1. Visit the [Live Preview](https://kimaka254.github.io/plp_web_week7_ToDo_app/) directly
 
 Or
 
 1. Clone the repository:
         ```
-        git clone <repository-url>
+        git clone https://github.com/kimaka254/plp_web_week7_ToDo_app.git
         ```
         
 2. Navigate to the project directory
